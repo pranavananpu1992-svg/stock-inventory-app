@@ -1,0 +1,8 @@
+{
+  "name": "Stock Inventory",
+  "description": "Comprehensive stock and inventory management app with real-time tracking, barcode scanning, stock-in/out workflows, low stock alerts, and valuation analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

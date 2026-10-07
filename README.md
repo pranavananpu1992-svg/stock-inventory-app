@@ -1,11 +1,38 @@
-<div align="center">
+# Stock Inventory
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A modern, offline-first Android stock and inventory management application built with **Kotlin**, **Jetpack Compose**, and **Room Database**, following Material Design 3 guidelines.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Real-Time Warehouse Dashboard**
+  - Instant executive valuation metrics (Total Cost Valuation, Potential Retail Revenue, Total Units, SKU Count).
+  - Low stock & out-of-stock emergency alerts banner with 1-tap reordering.
+  - Interactive inventory valuation share progress bars by category.
+  - Recent stock movements overview.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+- **Inventory Catalog Management**
+  - Complete SKU, product name, description, category, barcode, and warehouse location tracking.
+  - Category filtering and instant search across SKU, name, barcode, and location.
+  - One-tap quick Stock-In (+) and Stock-Out (-) adjustments directly from the item cards.
+  - Comprehensive item details with gross profit margins, inventory value, and supplier contacts.
 
-</div>
+- **Barcode & SKU Scanner**
+  - Interactive scanner viewfinder with animated laser alignment.
+  - Instant barcode / SKU lookup with quick-test sample chips.
+  - Immediate on-screen Stock-In / Stock-Out actions without leaving the scanner.
+
+- **Warehouse Movement Audit Trail**
+  - Full transactional history logging every stock in, dispatch, audit adjustment, damage/loss, and return.
+  - Filter by activity type and search by item or operator.
+  - Tracks balance before and after each movement with reference notes and operator names.
+
+- **Data Export**
+  - 1-tap CSV export of complete inventory catalog for spreadsheet analysis or backup.
+
+## Tech Stack
+
+- **UI**: Jetpack Compose & Material Design 3
+- **Language**: Kotlin 2.2
+- **Architecture**: MVVM with Clean Architecture & Repository pattern
+- **Local Persistence**: Android Room Database with reactive Kotlin Flows
+- **Build**: Gradle Kotlin DSL & Android Gradle Plugin (AGP) 9.1

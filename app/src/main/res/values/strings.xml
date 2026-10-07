@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Stock Inventory</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_inventory">Inventory</string>
+    <string name="nav_transactions">History</string>
+    <string name="nav_scanner">Scan</string>
+
+    <string name="search_placeholder">Search SKU, name, or barcode…</string>
+    <string name="filter_all">All Categories</string>
+    <string name="low_stock_badge">Low Stock</string>
+    <string name="out_of_stock_badge">Out of Stock</string>
+    <string name="in_stock_badge">In Stock</string>
+
+    <string name="stock_in">Stock In</string>
+    <string name="stock_out">Stock Out</string>
+    <string name="stock_adjustment">Adjustment</string>
+    <string name="add_item">Add Item</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="delete_item">Delete</string>
+    <string name="confirm_delete">Are you sure you want to delete this item?</string>
+
+    <string name="total_items">Total Items</string>
+    <string name="total_units">Total Units</string>
+    <string name="total_value">Total Value</string>
+    <string name="low_stock_alerts">Low Stock Alerts</string>
+</resources>
